@@ -14,7 +14,7 @@ export default function Navbar() {
   const links = [
     { href: '#home', label: 'Home' },
     { href: '#services', label: 'Services' },
-    { href: '#portfolio', label: 'Portfolio' },
+    { href: '#portfolio', label: 'Work' },
     { href: '#about', label: 'About' },
     { href: '#contact', label: 'Contact' },
   ];
@@ -28,7 +28,7 @@ export default function Navbar() {
           <div className="p-2 rounded-lg bg-gradient-to-br from-amber-400 to-orange-500 text-black shadow">
             <Rocket size={18} />
           </div>
-          <span className="font-semibold tracking-wide text-white group-hover:text-amber-300 transition-colors">Ignite Web Studio</span>
+          <span className="font-semibold tracking-wide text-white group-hover:text-amber-300 transition-colors">Web Walley Studio</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">

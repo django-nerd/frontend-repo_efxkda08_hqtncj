@@ -19,10 +19,10 @@ export default function Hero() {
           className="max-w-3xl"
         >
           <h1 className="text-4xl sm:text-6xl font-extrabold leading-tight tracking-tight text-white">
-            We craft high-impact websites for bold brands.
+            Web Walley Studio builds premium websites that convert.
           </h1>
           <p className="mt-6 text-white/80 text-lg">
-            Strategy, design, and engineering fused into immersive digital experiences. Interactive, performant, unforgettable.
+            Strategy. Design. Engineering. Inspired by global studios, crafted to your brand. Lightning-fast, elegant, and measurable.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">

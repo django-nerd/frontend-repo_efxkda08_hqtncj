@@ -67,7 +67,7 @@ function Services() {
   ];
 
   return (
-    <Section id="services" eyebrow="Services" title="End‑to‑end website expertise" subtitle="We combine strategy, design, and engineering to deliver standout experiences.">
+    <Section id="services" eyebrow="Services" title="End‑to‑end website expertise" subtitle="Purposeful minimalism, bold typography, and refined motion—taking cues from leading studios like Web Walley.">
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {items.map((it) => (
           <FadeIn key={it.title}>
@@ -91,12 +91,12 @@ function Portfolio() {
   const projects = [
     {
       t: 'Nimbus Analytics',
-      d: 'Data platform website with interactive 3D visuals and blog.',
+      d: 'Data platform website with interactive 3D visuals and editorial hub.',
       tag: 'B2B SaaS',
     },
     {
       t: 'Aurum Jewelry',
-      d: 'Luxury e‑commerce storefront with custom product builder.',
+      d: 'Luxury e‑commerce, custom product builder, and conversion-focused UX.',
       tag: 'E‑commerce',
     },
     {
@@ -107,7 +107,7 @@ function Portfolio() {
   ];
 
   return (
-    <Section id="portfolio" eyebrow="Portfolio" title="Selected work" subtitle="A glimpse of recent launches across industries.">
+    <Section id="portfolio" eyebrow="Work" title="Selected projects" subtitle="A crisp selection of recent launches across industries.">
       <div className="grid md:grid-cols-3 gap-6">
         {projects.map((p, i) => (
           <FadeIn key={p.t} delay={i * 0.05}>
@@ -141,12 +141,12 @@ function About() {
   ];
 
   return (
-    <Section id="about" eyebrow="About" title="Your partner for premium web presence" subtitle="We are a tight-knit team of strategists, designers, and engineers building web experiences that move brands forward.">
+    <Section id="about" eyebrow="About" title="A studio for ambitious brands" subtitle="We build refined, conversion‑focused web experiences with a minimalist aesthetic.">
       <div className="grid lg:grid-cols-2 gap-10 items-start">
         <FadeIn>
           <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
             <p className="text-white/80">
-              From early-stage startups to enterprise teams, we help translate business vision into digital reality. Our approach blends rigorous strategy, striking visuals, and scalable engineering so your website not only looks exceptional but drives measurable results.
+              From early-stage startups to enterprise teams, we turn business vision into digital reality. Our approach blends strategy, striking visuals, and scalable engineering so your site not only looks exceptional but drives measurable results.
             </p>
             <ul className="mt-6 space-y-3">
               {bullets.map((b) => (
@@ -176,7 +176,7 @@ function About() {
 
 function Contact() {
   return (
-    <Section id="contact" eyebrow="Contact" title="Tell us about your project" subtitle="Fill the form and we’ll get back within one business day.">
+    <Section id="contact" eyebrow="Contact" title="Tell us about your project" subtitle="Share a few details and we’ll get back within one business day.">
       <FadeIn>
         <form className="grid md:grid-cols-2 gap-6">
           <div className="md:col-span-1 space-y-4">
@@ -189,7 +189,7 @@ function Contact() {
             <textarea className="mt-2 w-full h-[170px] rounded-xl bg-white/5 border border-white/15 px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-amber-400/50" placeholder="Goals, scope, timeline, budget..." />
             <div className="mt-4 flex flex-wrap gap-4 text-white/80 text-sm">
               <span className="inline-flex items-center gap-2"><Phone size={16} className="text-amber-300" /> +1 (555) 012-3456</span>
-              <span className="inline-flex items-center gap-2"><Mail size={16} className="text-amber-300" /> hello@ignite.studio</span>
+              <span className="inline-flex items-center gap-2"><Mail size={16} className="text-amber-300" /> hello@webwalley.studio</span>
             </div>
           </div>
           <div className="md:col-span-2">
